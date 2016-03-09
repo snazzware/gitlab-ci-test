@@ -7,7 +7,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Snazzware/": "Snazzware"}
+        "psr-4": {"Snazzware\\": "Snazzware"}
     },
     "repositories": [
         {
