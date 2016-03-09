@@ -1,0 +1,21 @@
+{
+    "name": "snazzware/gitlab-ci-example",
+    "authors": [
+        {
+            "name": "Josh McKee",
+            "email": "josh@snazzware.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Snazzware": "src"}
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+        "symfony/console": "v2.8.0"
+    },
+}
