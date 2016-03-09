@@ -3,8 +3,7 @@ namespace Snazzware;
 
 class SeasonalBeer extends Beer
 {
-    private $brewStyle;
-
+    
     public function __construct($season)
     {
         parent::__construct();
@@ -19,8 +18,4 @@ class SeasonalBeer extends Beer
         }
     }
 
-    public function getBrewStyle()
-    {
-        return $this->brewStyle;
-    }
 }
