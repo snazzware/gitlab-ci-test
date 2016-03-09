@@ -14,4 +14,10 @@ class Beer
     {
         return $this->brewStyle;
     }
+
+    public function setBrewStyle($brewStyle)
+    {
+        $this->brewStyle = $brewStyle;
+    }
+
 }
