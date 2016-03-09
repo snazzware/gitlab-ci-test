@@ -1,7 +1,7 @@
 before_script:
-  - echo "hello world"
+    - /usr/local/bin/composer self-update
+    - composer install
 
 phpunit:
-  script:
-    - composer install
-    - php vendor/phpunit/phpunit/phpunit --coverage-text
+  script:    
+    - phpunit --coverage-text tests
