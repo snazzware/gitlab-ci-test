@@ -3,5 +3,7 @@ before_script:
     - composer install
 
 phpunit:
-  script:    
+  script:
+    - php vendor/phpunit/phpunit/phpunit --coverage-text
+    - bin/phpunit tests
     - phpunit --coverage-text tests
