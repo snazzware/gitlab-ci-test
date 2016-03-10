@@ -4,4 +4,4 @@ before_script:
 
 phpunit:
   script:
-    - vendor/bin/phpunit tests
+    - vendor/bin/phpunit --coverage-text tests
