@@ -2,10 +2,6 @@ before_script:
     - /usr/local/bin/composer self-update
     - composer install
 
-phpunit-html:
-  script:
-    - vendor/bin/phpunit --coverage-html /tmp tests
-
-phpunit-text:
+phpunit:
   script:
     - vendor/bin/phpunit --coverage-text tests
