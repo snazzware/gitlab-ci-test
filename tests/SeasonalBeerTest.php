@@ -5,18 +5,17 @@ use Snazzware as Snazzware;
 class SeasonalBeerTest extends PHPUnit_Framework_TestCase
 {
 
-    public function testIsStoutInWinter()
+    /**
+     * @covers \Snazzware\SeasonalBeer
+     * @return none
+     */
+    public function testSeasonalBeer()
     {
-        $beer = new \Snazzware\SeasonalBeer("Winter");
+        $winter = new \Snazzware\SeasonalBeer("Winter");
+        $summer = new \Snazzware\SeasonalBeer("Summer");
 
-        $this->assertEquals("Stout", $beer->getBrewStyle());
-    }
-
-    public function testIsPaleInSummer()
-    {
-        $beer = new \Snazzware\SeasonalBeer("Summer");
-
-        $this->assertEquals("IPA", $beer->getBrewStyle());
+        $this->assertEquals($winter->getBrewStyle(), "Stout");
+        $this->assertEquals($summer->getBrewStyle(), "IPA");
     }
 
 }
