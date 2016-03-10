@@ -4,7 +4,7 @@ before_script:
 
 phpunit-html:
   script:
-    - vendor/bin/phpunit --coverage-html tests
+    - vendor/bin/phpunit --coverage-html /tmp tests
 
 phpunit-text:
   script:
