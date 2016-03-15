@@ -1,0 +1,24 @@
+{
+    "name": "snazzware/gitlab-ci-example",
+    "authors": [
+        {
+            "name": "Josh McKee",
+            "email": "josh@snazzware.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Snazzware\\": "Snazzware"}
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    }
+}
