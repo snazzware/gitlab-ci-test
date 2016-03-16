@@ -8,7 +8,7 @@ class Beer
 
     public function __construct()
     {
-        $this->brewStyle = "Lager";
+        $this->brewSty le = "Lager";
     }
 
     public function getBrewStyle()
