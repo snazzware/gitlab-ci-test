@@ -15,7 +15,7 @@ class SeasonalBeerTest extends PHPUnit_Framework_TestCase
         $summer = new \Snazzware\SeasonalBeer("Summer");
 
         $this->assertEquals($winter->getBrewStyle(), "Stout");
-        $this->assertEquals($summer->getBrewStyle(), "IPA");
+        $this->assertEquals($summer->getBrewStyle(), "hjvhjgvjhg");
     }
 
 }
